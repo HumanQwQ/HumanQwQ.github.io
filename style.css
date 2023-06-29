@@ -1,0 +1,73 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #17283d;
+    overflow-x: hidden;
+    line-height: 25px;
+}
+header{
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/Yoisaki_Kanade.png);
+}
+header h1{
+    color : white;
+    text-align: center;
+}
+
+h2{
+    color: blue;
+}
+
+.kata{
+    color: darkgrey;
+    text-align: center;
+}
+
+main{
+    padding: 20px;
+    width: 880px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: blue;
+}
+
+@media( max-width:1280px ){
+    main{
+    width: 100%;
+    margin: 0;
+    padding : 5px;
+    }
+
+    body html{
+        overflow-x: hidden;
+    }
+
+    header{
+        padding: 5px;
+        margin: 0;
+    }
+}
+
+footer{
+    color: white;
+    text-align: center;
+}
